@@ -1,0 +1,14 @@
+#btn{
+    width:7rem;
+    height:2.5rem;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border:.1rem solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: white;
+    color: var(--secondary-color);
+}

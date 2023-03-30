@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mortgage Calculator</h1>
+        </div>
+        <div class="box">
+            <input type="number" required id="interest_rate" placeholder="Interest rate" max="10000">
+            <input type="number" id="loan_amount" placeholder="Loan amount">
+            <input type="number" id="home_value" placeholder="Home value" >
+            <input type="number" id="down_payment" placeholder="Down payment">
+            <input type="number" id="duration_years" min="1" max="10000" value="30" placeholder="Duration Of Years">
+            <input type="number" id="monthly_hoa" placeholder="Monthly HOA Fee">
+            <input type="number" id="annual_property_tax" placeholder="Annual Property Tax">
+            <input type="number" id="annual_home_insurance" placeholder="Annual Insurance">
+            <button id="btn">Check</button>
+        </div>
+        <div class="result">
+            <h1>Results:</h1>
+            <!--<ul>
+                <li>Monthly Payment</li>
+                <li>Annual Payment</li>
+                <li>Total Interest</li>
+            </ul>-->
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
